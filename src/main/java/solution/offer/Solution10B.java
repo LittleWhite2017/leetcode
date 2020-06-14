@@ -12,7 +12,7 @@ package solution.offer;
  *
  *
  */
-public class SolutionFib2 {
+public class Solution10B {
     public int numWays(int n) {
         if(n ==0 || n ==1){
             return 1;

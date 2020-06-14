@@ -9,7 +9,7 @@ package solution.offer;
  *
  * 答案需要取模 1e9+7（1000000007），如计算初始结果为：1000000008，请返回 1。
  */
-public class SolutionFib1 {
+public class Solution10A {
     public int fib(int n) {
         if(n ==0 || n == 1){
             return n;

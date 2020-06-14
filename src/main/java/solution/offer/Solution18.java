@@ -20,7 +20,7 @@ import struct.ListNode;
  * 输出: [4,5,9]
  * 解释: 给定你链表中值为 1 的第三个节点，那么在调用了你的函数之后，该链表应变为 4 -> 5 -> 9.
  */
-public class SolutionDeleteNode {
+public class Solution18 {
     public ListNode deleteNode(ListNode head, int val) {
         ListNode resHead =  new ListNode(-1);
         resHead.next = head;

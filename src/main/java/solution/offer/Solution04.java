@@ -20,10 +20,10 @@ package solution.offer;
  * <p>
  * 给定 target = 20，返回 false。
  */
-public class Solution2 {
+public class Solution04 {
     public static void main(String[] args) {
         int[][] matix = {{1, 4, 7, 11, 15}, {2, 5, 8, 12, 19}, {3, 6, 9, 16, 22}, {10, 13, 14, 17, 24}, {18, 21, 23, 26, 30}};
-        System.out.println( new Solution2().findNumberIn2DArray(matix,5));
+        System.out.println( new Solution04().findNumberIn2DArray(matix,5));
 
     }
 

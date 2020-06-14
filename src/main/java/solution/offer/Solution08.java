@@ -20,10 +20,10 @@ import java.util.Stack;
  * [[],[],[5],[2],[],[]]
  * 输出：[null,-1,null,null,5,2]
  */
-public class CQueue {
+public class Solution08 {
     private Stack<Integer> stackA;
     private Stack<Integer> stackB;
-    public CQueue() {
+    public Solution08() {
         stackA = new Stack<Integer>();
         stackB = new Stack<Integer>();
     }

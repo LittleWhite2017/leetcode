@@ -14,7 +14,7 @@ package solution.offer;
  * 用返回一个整数列表来代替打印
  * n 为正整数
  */
-public class SolutionPrintNumbers {
+public class Solution17 {
     public int[] printNumbers(int n) {
         int num = this.myPow(10,n) -1 ;
         int[] resArray = new int[num];

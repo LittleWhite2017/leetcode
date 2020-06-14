@@ -24,7 +24,7 @@ package solution.offer;
  *
  * 深度优先算法，按照深度优先检索字符串，检索到的字符串，设置为/，避免重复搜索
  */
-public class Solution10DFS {
+public class Solution12 {
     public boolean exist(char[][] board, String word) {
         char[] words = word.toCharArray();
         for(int i = 0; i < board.length; i++) {

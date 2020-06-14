@@ -14,10 +14,10 @@ package solution.offer;
  * 链接：https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class Solution1 {
+public class Solution03 {
     public static void main(String[] args) {
         int[] input = {2, 3, 1, 0, 2, 5, 3};
-        System.out.println(new Solution1().findRepeatNumber(input));
+        System.out.println(new Solution03().findRepeatNumber(input));
     }
     public int findRepeatNumber(int[] nums) {
         if (nums.length == 0 || nums.length == 1) {

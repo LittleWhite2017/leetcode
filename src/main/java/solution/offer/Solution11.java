@@ -13,7 +13,7 @@ package solution.offer;
  * 输入：[2,2,2,0,1]
  * 输出：0
  */
-public class SolutionMinArray {
+public class Solution11 {
     public int minArray(int[] numbers) {
         int i=0;
         int j= numbers.length -1;

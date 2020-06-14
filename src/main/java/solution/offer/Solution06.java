@@ -16,7 +16,7 @@ import java.util.Arrays;
  * 输入：head = [1,3,2]
  * 输出：[2,3,1]
  */
-public class SolutionReversePrint {
+public class Solution06 {
 
     public static void main(String[] args) {
 

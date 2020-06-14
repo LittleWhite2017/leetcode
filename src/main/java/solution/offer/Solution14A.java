@@ -15,7 +15,7 @@ package solution.offer;
  * 升级版本，需要考虑整数溢出
  *
  */
-public class SolutionCuttingRope {
+public class Solution14A {
     public int cuttingRope(int n) {
         // n <=3时候，不该切割
         if(n <= 3) return n - 1;

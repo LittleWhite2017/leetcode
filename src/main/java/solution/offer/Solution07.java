@@ -16,12 +16,12 @@ import struct.TreeNode;
  *        /  \
  *      15   7
  */
-public class SolutionRebuildTree {
+public class Solution07 {
 
     public static void main(String[] args) {
         int[] preorder = {3,9,20,15,7};
         int[] inorder = {9,3,15,20,7};
-        TreeNode treeNode = new SolutionRebuildTree().buildTree(preorder,inorder);
+        TreeNode treeNode = new Solution07().buildTree(preorder,inorder);
         System.out.println(treeNode);
     }
     public TreeNode buildTree(int[] preorder, int[] inorder) {

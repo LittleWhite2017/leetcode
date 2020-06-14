@@ -9,7 +9,7 @@ package solution.offer;
  * 输入: 2.10000, 3
  * 输出: 9.26100
  */
-public class SolutionMyPow {
+public class Solution16 {
     public double myPow(double x, int n) {
         if(n ==0 ){
             return 1;

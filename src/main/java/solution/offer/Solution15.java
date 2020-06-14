@@ -20,7 +20,7 @@ package solution.offer;
  * 输出：31
  * 解释：输入的二进制串 11111111111111111111111111111101 中，共有 31 位为 '1'。
  */
-public class SolutionHammingWeight {
+public class Solution15 {
     // you need to treat n as an unsigned value
     // 需要解决越界问题 除数取余数的方法
     // 移位需要考虑符号问题，采用无符号右移 >>>
